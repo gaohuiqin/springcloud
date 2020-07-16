@@ -21,7 +21,7 @@ management:
 feign:
   hystrix:
     enabled: true
-name: lanxin
+name: lanxin1
 
 
 
