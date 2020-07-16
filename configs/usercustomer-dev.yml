@@ -1,1 +1,31 @@
 
+server:
+  port: 8002
+spring:
+  application:
+    name: usercustomer
+  zipkin:
+    base-url: http://localhost:8005
+  sleuth:
+    sampler:
+      percentage: 1.0
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:10086/eureka
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+feign:
+  hystrix:
+    enabled: true
+name: lanxin
+
+
+
+
+
+
+
