@@ -20,4 +20,4 @@ management:
 feign:
   hystrix:
     enabled: true
-name: gaoqin3
+name: gaoqin4
